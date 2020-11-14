@@ -1,0 +1,26 @@
+
+1.-configuracion de username a nivel global
+git config --global user.name "NOMBRE"
+
+2.- configurar un email a nivel global
+git config --global user.email "alguncorreo@example.com"
+	#mostrar el usuario
+	git config user.name
+	#mostrar el email
+	git config user.email
+
+//---------------configuracion de usuario y correo a nivel de repositorio
+1.- configuracion de username a nivel de repositorio
+git config user.name "NOMBRE"
+
+2.- configuracion a nivel de repositorio
+git config user.email "alguncorreo@example.com"
+	#mostrar el usuario
+	git config user.name
+	#mostrar el email
+	git config user.email
+
+
+//----------------creacion de un nuevo branch-------
+git checkout  -b "nombre del branch"
+
