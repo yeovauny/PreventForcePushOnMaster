@@ -1,0 +1,35 @@
+-git branch (para saber donde estoy parado)
+
+-git push -u origin master (para pushar al master desde el origen)
+
+-git remote get-url origin (para saber a donde esta apuntando el origen)
+
+-git commit -m "mensaje  "  (para realizar un commit)
+
+-git checkout "branch name" (cambiar de un branch a otro)
+
+-git pull (traer los cambios locales)
+
+aumentar el buffer de subida de archivos
+
+git config --local http.postBuffer 157286400 (a 150 mb)
+
+
+generaciones de tags
+
+- git tag vX.Y.GA-lw  (la version del tag.GA-lw) commit
+
+-git push --tags origin (pushear el tag hacia el repo)
+
+-git rm para quitar un archivo    (para quitar el archivo al push)
+
+
+
+para realizar merges entre ramas
+
+  
+
+-git merge --ff feature/development (posicionarse en la rama que va recibir el merge osea el master en este caso)
+---mejor opcion que la pasada
+
+git merge --strategy option theirs origin/master
