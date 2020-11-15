@@ -24,3 +24,5 @@ git config user.email "alguncorreo@example.com"
 //----------------creacion de un nuevo branch-------
 git checkout  -b "nombre del branch"
 
+
+
